@@ -1,0 +1,61 @@
+# Ignore dependency directories
+node_modules/
+venv/
+backend/__pycache__/
+backend/agent/__pycache__/
+backend/audio_processing/__pycache__/
+backend/patch_mag/workflows/__pycache__/
+__init__.py
+*.class
+*.pyc
+dist/
+build/
+uploads/
+
+backend/agent/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Model/Data
+*.ckpt
+*.pt
+*.bin
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# ChromaDB local storage
+chroma/
+chroma_db/
+
+# Audio/Video
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Secrets
+.env

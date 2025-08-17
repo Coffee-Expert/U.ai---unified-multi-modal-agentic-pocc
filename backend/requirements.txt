@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-chroma
+openai-whisper
+sentence-transformers
+ffmpeg-python
+Flask
+Werkzeug
+chromadb
+flask_cors
